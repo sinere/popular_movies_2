@@ -1,0 +1,75 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.popularmovies"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="17"
+8-->/Users/yooi/Downloads/popular_movies-master/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="29" />
+9-->/Users/yooi/Downloads/popular_movies-master/app/src/main/AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->/Users/yooi/Downloads/popular_movies-master/app/src/main/AndroidManifest.xml:5:5-67
+11-->/Users/yooi/Downloads/popular_movies-master/app/src/main/AndroidManifest.xml:5:22-64
+12
+13    <application
+13-->/Users/yooi/Downloads/popular_movies-master/app/src/main/AndroidManifest.xml:7:5-25:19
+14        android:allowBackup="true"
+14-->/Users/yooi/Downloads/popular_movies-master/app/src/main/AndroidManifest.xml:8:9-35
+15        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+15-->[androidx.core:core:1.1.0] /Users/yooi/.gradle/caches/transforms-2/files-2.1/e9dab9c67c1ee3668e0bbf86c6d8cbd8/core-1.1.0/AndroidManifest.xml:24:18-86
+16        android:debuggable="true"
+17        android:icon="@mipmap/ic_launcher"
+17-->/Users/yooi/Downloads/popular_movies-master/app/src/main/AndroidManifest.xml:9:9-43
+18        android:label="@string/app_name"
+18-->/Users/yooi/Downloads/popular_movies-master/app/src/main/AndroidManifest.xml:10:9-41
+19        android:roundIcon="@mipmap/ic_launcher_round"
+19-->/Users/yooi/Downloads/popular_movies-master/app/src/main/AndroidManifest.xml:11:9-54
+20        android:supportsRtl="true"
+20-->/Users/yooi/Downloads/popular_movies-master/app/src/main/AndroidManifest.xml:12:9-35
+21        android:testOnly="true"
+22        android:theme="@style/AppTheme" >
+22-->/Users/yooi/Downloads/popular_movies-master/app/src/main/AndroidManifest.xml:13:9-40
+23        <activity
+23-->/Users/yooi/Downloads/popular_movies-master/app/src/main/AndroidManifest.xml:14:9-17:68
+24            android:name="com.example.popularmovies.detail"
+24-->/Users/yooi/Downloads/popular_movies-master/app/src/main/AndroidManifest.xml:15:13-35
+25            android:label="@string/title_activity_detail"
+25-->/Users/yooi/Downloads/popular_movies-master/app/src/main/AndroidManifest.xml:16:13-58
+26            android:theme="@style/AppTheme.NoActionBar" />
+26-->/Users/yooi/Downloads/popular_movies-master/app/src/main/AndroidManifest.xml:17:13-56
+27        <activity android:name="com.example.popularmovies.MainActivity" >
+27-->/Users/yooi/Downloads/popular_movies-master/app/src/main/AndroidManifest.xml:18:9-24:20
+27-->/Users/yooi/Downloads/popular_movies-master/app/src/main/AndroidManifest.xml:18:19-47
+28            <intent-filter>
+28-->/Users/yooi/Downloads/popular_movies-master/app/src/main/AndroidManifest.xml:19:13-23:29
+29                <action android:name="android.intent.action.MAIN" />
+29-->/Users/yooi/Downloads/popular_movies-master/app/src/main/AndroidManifest.xml:20:17-69
+29-->/Users/yooi/Downloads/popular_movies-master/app/src/main/AndroidManifest.xml:20:25-66
+30
+31                <category android:name="android.intent.category.LAUNCHER" />
+31-->/Users/yooi/Downloads/popular_movies-master/app/src/main/AndroidManifest.xml:22:17-77
+31-->/Users/yooi/Downloads/popular_movies-master/app/src/main/AndroidManifest.xml:22:27-74
+32            </intent-filter>
+33        </activity>
+34
+35        <provider
+35-->[com.squareup.picasso:picasso:2.71828] /Users/yooi/.gradle/caches/transforms-2/files-2.1/cf8608245faacf6740ce0bc4988c9ee5/jetified-picasso-2.71828/AndroidManifest.xml:8:9-11:40
+36            android:name="com.squareup.picasso.PicassoProvider"
+36-->[com.squareup.picasso:picasso:2.71828] /Users/yooi/.gradle/caches/transforms-2/files-2.1/cf8608245faacf6740ce0bc4988c9ee5/jetified-picasso-2.71828/AndroidManifest.xml:9:13-64
+37            android:authorities="com.example.popularmovies.com.squareup.picasso"
+37-->[com.squareup.picasso:picasso:2.71828] /Users/yooi/.gradle/caches/transforms-2/files-2.1/cf8608245faacf6740ce0bc4988c9ee5/jetified-picasso-2.71828/AndroidManifest.xml:10:13-72
+38            android:exported="false" />
+38-->[com.squareup.picasso:picasso:2.71828] /Users/yooi/.gradle/caches/transforms-2/files-2.1/cf8608245faacf6740ce0bc4988c9ee5/jetified-picasso-2.71828/AndroidManifest.xml:11:13-37
+39
+40        <service
+40-->[androidx.room:room-runtime:2.2.3] /Users/yooi/.gradle/caches/transforms-2/files-2.1/5f03ae9a4ec8352b57fd369ab039a2f8/room-runtime-2.2.3/AndroidManifest.xml:25:9-27:40
+41            android:name="androidx.room.MultiInstanceInvalidationService"
+41-->[androidx.room:room-runtime:2.2.3] /Users/yooi/.gradle/caches/transforms-2/files-2.1/5f03ae9a4ec8352b57fd369ab039a2f8/room-runtime-2.2.3/AndroidManifest.xml:26:13-74
+42            android:exported="false" />
+42-->[androidx.room:room-runtime:2.2.3] /Users/yooi/.gradle/caches/transforms-2/files-2.1/5f03ae9a4ec8352b57fd369ab039a2f8/room-runtime-2.2.3/AndroidManifest.xml:27:13-37
+43    </application>
+44
+45</manifest>
