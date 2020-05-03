@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">Popular Movies</string>
+    <string name="title_activity_detail">detail</string>
+    <string name="detail_activity_success_adding_a_movie">You Have Successfully Added A Movie To Your Favorites</string>
+    <string name="detail_activity_success_deleting_a_movie">You Have Successfully Deleted A Movie From Your Favorites</string>
+</resources>
